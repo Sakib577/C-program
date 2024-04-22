@@ -4,6 +4,7 @@ Print the ID and salary (with two decimal places) of the employee for a particul
 //I added the functionality which can take the id and decide which post does the person work for and how much he earns in an hour.
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 int main()
 {
@@ -21,23 +22,23 @@ int main()
     switch (ID)
     {
     case 1 ... 999:
-        Rank , "Manager";
+        strcpy(Rank , "Manager");
         value= 210;
         break;
     case 1000 ... 1999:
-        Rank , "Officer";
+        strcpy(Rank , "Officer");
         value= 190;
         break;
     case 2000 ... 2999:
-        Rank , "Worker";
+        strcpy(Rank , "Worker");
         value= 150;
         break;
     case 3000 ... 3999:
-        Rank , "Gate Keeper";
+        strcpy(Rank , "Gate Keeper");
         value= 120;
         break;
     case 4000 ... 4999:
-        Rank , "Dust Man";
+        strcpy(Rank , "Dust Man");
         value= 90;
         break;
     
