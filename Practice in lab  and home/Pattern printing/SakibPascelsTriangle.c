@@ -20,12 +20,12 @@ printf("Enter the number of row:");
         {
             if (a == 0 || n == 0)
             {
-                printf("%d   ", coef);
+                printf("%3d ", coef);
             }
             else
             {
                 coef = coef * (n - a + 1) / a;
-                printf("%d   ", coef);
+                printf("%3d ", coef);
             }
         }
         printf("\n");
